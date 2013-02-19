@@ -20,5 +20,5 @@
 include_recipe "python"
 
 python_pip "mercurial" do
-  action :upgrade
+  action :install
 end
